@@ -1,0 +1,122 @@
+*,*::after,*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --color-primary-dark:#0C0C0C;
+    --color-font-primary-dark:#ffffff;
+    --color-background-primary-dark: #0C0E13;
+    --color-borderline-primary-dark: #F1F5F9;
+    --color-background-button: #2563EB;
+}
+body {
+    font-family: 'Anek Latin', sans-serif;
+    background-color: var(--color-background-primary-dark);
+}
+.header {
+    background-color: var(--color-primary-dark) ;
+    color: var(--color-font-primary-dark);
+    display: flex;
+    justify-content: space-between;
+    padding: 1.3em;
+}
+.header .btn-dark {
+    padding: 1em;
+    width: 50px;
+    border-radius: 30%;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card { 
+    padding: 2em;
+    color: var(--color-font-primary-dark);
+    z-index: 10;
+    position: relative;
+    width: 595px;
+    height: 373px;
+    border-radius: 20px;
+    background: #0575E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.data-card {
+    margin-top: 10%;
+    position: absolute;
+    width: 1127px;
+    height: 754px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 8px var(--color-borderline-primary-dark);
+}
+.content-chip-debit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8%;
+}
+.content-chip-debit img {
+    width: 79px;
+    height: 58px;
+}
+.name-bank {
+    text-align: end;
+    font-size: 2em;
+}
+.number-card {
+    margin-top: 5%;
+    font-size: 2.5em;
+}
+.information-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+.information-card p:nth-child(2) {
+    margin-left: 2%;
+}
+.footer-card {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3em;
+}
+.footer-card img {
+    width: 120px;
+    height: 51px;
+    
+}
+.data-card form{
+    padding: 2em;
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-data-card input {
+    display: block;
+    padding: 1.5em;
+    border-radius: 50px;
+    width: 100%;
+    margin: .5em;
+    outline: none;
+}
+.btn-validar{
+    background-color: var(--color-background-button);
+    width: 30%;
+    display: block;
+    padding: 1.5em;
+    margin-top: 5%;
+    border-radius: 50px;
+    color: var(--color-font-primary-dark);
+
+}
+.form-input-datatime-cvv {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
