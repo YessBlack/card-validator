@@ -37,13 +37,34 @@
             </div>
         </section>
         <section class="data-card">
-            <form action="" class="form-data-card">
-                <input type="text" placeholder="Nombre propietario">                
-                <input type="text" placeholder="Numero de la tarjeta" id="number-card">
+            <form action="" class="form-data-card" id="form">
+                <!--Grupo-->
+                <div id="group-name-user">
+                    <label for="name-user">Nombre Propietario</label>
+                    <div class="input-name-user">                        
+                        <input type="text" placeholder="Jose Martinez" name="name-user">                
+                        <i class="icon-times-circle"></i>
+                    </div>
+                    <p>Error en el nombre de usuario</p>
+                </div>
+                
+                <div class="input-number-card">
+                    <label for="">Numero Tarjeta</label>
+                    <input type="text" placeholder="**** **** **** 3453" id="number-card" name="number-card">
+                </div>                                
                 <div class="form-input-datatime-cvv">
-                    <input type="text" placeholder="Nombre del Banco">  
-                    <input type="text" placeholder="MM/AAAA">
-                    <input type="text" placeholder="CCV">
+                    <div>
+                        <label for="">Nombre del banco</label>
+                        <input type="text" placeholder="BBVA" name="name-bank">  
+                    </div>
+                    <div>
+                        <label for="">Mes/Año</label>
+                        <input type="text" placeholder="12/2023" name="month-year">
+                    </div>
+                    <div>
+                        <label for="">CCV</label>
+                        <input type="text" placeholder="453" name="ccv">
+                    </div>
                 </div>                
                 <button class="btn-validar" id="btn-validar">Validar</button>
             </form>

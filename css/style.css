@@ -36,18 +36,17 @@ body {
     color: var(--color-font-primary-dark);
     z-index: 10;
     position: relative;
-    width: 595px;
-    height: 373px;
+    width: 435px;
+    height: 253px;
     border-radius: 20px;
     background: #0575E6;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .data-card {
-    margin-top: 10%;
+    margin-top: 8%;
     position: absolute;
-    width: 1127px;
-    height: 754px;
+    width: 927px;   
     border-radius: 20px;
     box-shadow: 1px 1px 8px var(--color-borderline-primary-dark);
 }
@@ -58,22 +57,23 @@ body {
     margin-top: 8%;
 }
 .content-chip-debit img {
-    width: 79px;
-    height: 58px;
+    width: 59px;
+    height: 44px;
 }
 .name-bank {
     text-align: end;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 .number-card {
     margin-top: 5%;
-    font-size: 2.5em;
+    font-size: 1.5em;
 }
 .information-card {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 3%;
+    font-size: .7em;
 }
 .information-card p:nth-child(2) {
     margin-left: 2%;
@@ -83,19 +83,20 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 1.3em;
+    font-size: .7em;
 }
 .footer-card img {
-    width: 120px;
-    height: 51px;
-    
+    width: 70px;
+    height: 31px;
 }
 .data-card form{
     padding: 2em;
-    margin-top: 20%;
-    display: flex;
+    margin-top: 14%;
     flex-direction: column;
     align-items: center;
+}
+label {
+    color: white;
 }
 .form-data-card input {
     display: block;
