@@ -46,7 +46,7 @@ body {
 .data-card {
     margin-top: 8%;
     position: absolute;
-    width: 927px;   
+    width: 827px;   
     border-radius: 20px;
     box-shadow: 1px 1px 8px var(--color-borderline-primary-dark);
 }
@@ -91,27 +91,60 @@ body {
 }
 .data-card form{
     padding: 2em;
-    margin-top: 14%;
+    margin-top: 16%;
     flex-direction: column;
     align-items: center;
 }
-label {
+.form-data-card {
     color: white;
 }
 .form-data-card input {
-    display: block;
-    padding: 1.5em;
+    padding: 1.2em;
     border-radius: 50px;
     width: 100%;
     margin: .5em;
     outline: none;
+    border: none;
+}
+.group-input label,p  {
+    margin-left: 1em;
+}
+.group-input p {
+    color: red;
+    margin-bottom: 2%;
+    display: none;
+}
+.input-data {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.data-error-check input {
+
+}
+.icon-error,.icon-check {
+    margin-right: 3%;
+    position: absolute;
+    z-index: 10;
+    color: red;
+    display: none;
+}
+.icon-check {
+    color: green;
+    display: none  ;
+}
+.icon--confg {
+    margin-right: 10%;
 }
 .btn-validar{
+    margin: 0 auto;
     background-color: var(--color-background-button);
-    width: 30%;
+    width: 4    0%;
     display: block;
-    padding: 1.5em;
-    margin-top: 5%;
+    padding: 1.2em;
+    margin-top: 4%;
+    border: none;
     border-radius: 50px;
     color: var(--color-font-primary-dark);
 
