@@ -25,6 +25,6 @@ const sumarDosDigitos = (arr) => {
 
 const anunciarNumeroValido = (numero) => {
     (numero % 10 === 0)
-    ? console.log("El numero es valido")
-    : console.log("El numero no es valido")
+    ? alert('El número de tarjeta es válido')
+    : alert('El número de tarjeta no es válido')
 }

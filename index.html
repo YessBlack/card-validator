@@ -41,54 +41,29 @@
                 <!--Grupo Nombre propietario-->
                 <div id="group-name-user" class="group-user-name group-input">
                     <label for="name-user" class="label-input">Nombre Propietario</label>
-                    <div class="input-name-user input-data data-error-check">                        
-                        <input type="text" placeholder="Jose Martinez" name="name-user">                
-                        <i class="icon-times-circle icon-error" ></i>
-                        <i class="icon-check-circle icon-check"></i>
-                    </div>
-                    <p class="error-name-user">Error en el nombre de usuario</p>
+                    <input type="text" placeholder="Jose Martinez" name="name-user" id="name-user" required>                                                           
                 </div>
                 <!--Grupo Numero de tarjeta-->
                 <div id="group-number-card" class="group-number-card group-input">
-                    <label for="number-card" class="label-input">Nombre Propietario</label>
-                    <div class="input-number-card input-data data-error-check">                        
-                        <input type="text" placeholder="**** **** **** 3453" id="number-card" name="number-card">
-                        <i class="icon-times-circle icon-error" ></i>
-                        <i class="icon-check-circle icon-check"></i>
-                    </div>
-                    <p class="error-name-user">Error en el numero de tarjeta</p>
+                    <label for="number-card" class="label-input">Numero de tarjeta</label>
+                    <input type="text" placeholder="**** **** **** 3453" id="number-card" name="number-card" required>                                            
                 </div>
                 <!--Grupo Nombre Banco - fecha - ccv-->
                 <div class="form-input-datatime-cvv">
                     <!--Grupo Nombre banco-->
                     <div id="group-name-bank" class="group-name-bank group-input">
-                        <label for="name-bank" class="label-input">Nombre Banco</label>
-                        <div class="input-name-bank input-data data-error-check">                        
-                            <input type="text" placeholder="BBVA" name="name-bank">  
-                            <i class="icon-times-circle icon-error icon--confg" ></i>
-                            <i class="icon-check-circle icon-check icon--confg"></i>
-                        </div>
-                        <p class="error-name-user">Error en el nombre del banco</p>
+                        <label for="name-bank" class="label-input">Nombre Banco</label>                                          
+                        <input type="text" placeholder="BBVA" name="name-bank" id="name-bank" required>  
                     </div>
                     <!--Grupo fecha MM/AAAA-->
                     <div id="group-time" class="group-time group-input">
-                        <label for="month-year" class="label-input">Fecha</label>
-                        <div class="input-time input-data data-error-check">                        
-                            <input type="text" placeholder="12/2023" name="month-year">
-                            <i class="icon-times-circle icon-error icon--confg" ></i>
-                            <i class="icon-check-circle icon-check icon--confg"></i>
-                        </div>
-                        <p class="error-name-user">Error en el numero de tarjeta</p>
+                        <label for="month-year" class="label-input">Fecha</label>                                  
+                        <input type="text" placeholder="01/2023" name="month-year" id="month-year"required>
                     </div>
                     <!--Numero CCV-->
                     <div id="group-ccv" class="group-ccv group-input">
-                        <label for="ccv--" class="label-input">CCV</label>
-                        <div class="input-ccv input-data data-error-check">                        
-                            <input type="text" placeholder="453" name="ccv">
-                            <i class="icon-times-circle icon-error icon--confg" ></i>
-                            <i class="icon-check-circle icon-check icon--confg"></i>
-                        </div>
-                        <p class="error-name-user">Error en el numero de tarjeta</p>
+                        <label for="ccv--" class="label-input">CCV</label>                                
+                        <input type="text" placeholder="453" name="ccv" id="ccv" required>                                               
                     </div>
                 </div>
 
