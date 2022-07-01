@@ -49,14 +49,3 @@ export const validarFormulario = (e) => {
             break;
     }
 }
-
-export const validarInputs = () => {
-    bandera = false
-    const $inputs = document.querySelectorAll('#form input')
-    $inputs.forEach(input => {
-        console.log(input.value)
-        (input.validarCampos.expRegNombre.test(input.value))
-        ? bandera = true
-        : bandera = false
-    })
-}
